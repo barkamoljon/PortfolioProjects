@@ -1,3 +1,8 @@
+/*
+Covid 19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
+
 Select *
 From PortfolioProject..CovidDeaths
 Where continent is not null 
@@ -73,7 +78,10 @@ where continent is not null
 --Group By date
 order by 1,2
 
---Looking at Total Population vs Vaccinations
+
+
+-- Total Population vs Vaccinations
+-- Shows Percentage of Population that has recieved at least one Covid Vaccine
 
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
 , SUM(CONVERT(int,vac.new_vaccinations)) OVER (Partition by dea.Location Order by dea.location, dea.Date) as RollingPeopleVaccinated
@@ -85,7 +93,9 @@ Join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null 
 order by 2,3
 
--- USE CTE
+
+-- Using CTE to perform Calculation on Partition By in previous query
+
 With PopvsVac (Continent, Location, Date, Population, New_Vaccinations, RollingPeopleVaccinated)
 as
 (
@@ -102,16 +112,18 @@ where dea.continent is not null
 Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
 
---TEMP TABLE
 
-DROP TABLE if exists #PercentPopulationVaccinated
+
+-- Using Temp Table to perform Calculation on Partition By in previous query
+
+DROP Table if exists #PercentPopulationVaccinated
 Create Table #PercentPopulationVaccinated
 (
 Continent nvarchar(255),
 Location nvarchar(255),
 Date datetime,
 Population numeric,
-New_vaccinations numeric, 
+New_vaccinations numeric,
 RollingPeopleVaccinated numeric
 )
 
@@ -129,7 +141,10 @@ Join PortfolioProject..CovidVaccinations vac
 Select *, (RollingPeopleVaccinated/Population)*100
 From #PercentPopulationVaccinated
 
---Create  View to store data for later visualizations 
+
+
+
+-- Creating View to store data for later visualizations
 
 Create View PercentPopulationVaccinated as
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
@@ -140,9 +155,6 @@ Join PortfolioProject..CovidVaccinations vac
 	On dea.location = vac.location
 	and dea.date = vac.date
 where dea.continent is not null 
---order by 2,3
 
-Select *
-From PercentPopulationVaccinated
 
 
