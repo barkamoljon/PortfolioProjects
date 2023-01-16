@@ -21,7 +21,7 @@ The key metric of credit risk is Expected Loss (EL), calculated by multiplying t
 
 _**Note**_: I embedded the findings and interpretations in the project-walkthrough below, and denoted them by 🔶
 
-## [1. Data Preparation](https://github.com/shawn-y-sun/Credit_Risk_Model_LoanDefaults/blob/main/1.Credit%20Risk%20Modeling_PD%20Data%20Preparation.ipynb)
+## [1. Data Preparation](https://github.com/barkamoljon/PortfolioProjects/blob/main/Credit_Risk_Modeling/1.Credit%20Risk%20Modeling_Preparation.ipynb)
 
 In this part of data pipeline, we fill in or convert the data into what we need, and then create and group dummy variables for each category as required for PD model and credit scorecard building.
 
@@ -308,7 +308,7 @@ loan_data_inputs_test.to_csv('loan_data_inputs_test.csv')
 loan_data_targets_test.to_csv('loan_data_targets_test.csv')
 ```
 
-## [2. PD Model Building](https://github.com/shawn-y-sun/Credit_Risk_Model_LoanDefaults/blob/main/2.Credit%20Risk%20Modeling_PD%20Model%20Building.ipynb)
+## [2. PD Model Building](https://github.com/barkamoljon/PortfolioProjects/blob/main/Credit_Risk_Modeling/2.Credit%20Risk%20Modeling_PD%20Model.ipynb)
 
 
 ### 2.1 Model Building
@@ -519,7 +519,7 @@ Out[63]:
 🔶 The plot demonstrates the percentage of bad or good borrowers will be rejected at various threshold settings. For example, if we set threshold at 0.8, ~25% of the bad borrowers will be rejected while only ~10% of good borrowers will be rejected.<br>
 🔶 The two cumulative distribution functions are sufficiently far away from each other and the model has satisfactory predictive power.
 
-### 2.3 Credit Scorecard Building ([Full Scorecard](https://github.com/shawn-y-sun/Credit_Risk_Model_LoanDefaults/blob/main/df_scorecard.csv))
+### 2.3 Credit Scorecard Building ([Full Scorecard](https://github.com/barkamoljon/PortfolioProjects/blob/main/Credit_Risk_Modeling/df_scorecard.csv))
 
 #### Preprocessing the coefficient tables
 1. Add back the reference categories and assign them coefficients of 0
@@ -608,7 +608,7 @@ Finally, we look at employment length<br>
 🔶 Surprisingly, looks like employment length is negatively related to a person's credit score. It is possibly because a young worker does not have debt and spending on family, thus they face less financial stress and have a smaller chance to default on loans. Another reason could be that fewer young workers have been approved a loan thus we don't have enough of their data.
 
 
-## [3. PD Model Monitoring](https://github.com/shawn-y-sun/Credit_Risk_Model_LoanDefaults/blob/main/3.Credit%20Risk%20Modeling_PD%20Model%20Monitoring.ipynb)
+## [3. PD Model Monitoring](https://github.com/barkamoljon/PortfolioProjects/blob/main/Credit_Risk_Modeling/3.Credit%20Risk%20Modeling%20-%20Monitoring.ipynb)
 This part will assess if the PD model is out-of-date and needs to be re-trained by the newest dataset. We use PSI (Population Stability Index) to measure how much the variables has shifted over time. A high PSI indicates that the overall characteristics of borrowers have changed, meaning our model might not fit the new population as well as before, therefore it needs to be updated.
 
 ### 3.1 Preprocessing New Data
@@ -724,7 +724,7 @@ Name: Contribution, dtype: float64
 🔶 Interpretation: A PSI greater than 0.25 indicates big difference between datasets over time. We need to take action to update our model.
 - PSI of 'initial_list_status', 'mths_since_issue_d' are greater than 0.25
 
-## [4. LGD & EAD Model Building](https://github.com/shawn-y-sun/Credit_Risk_Model_LoanDefaults/blob/main/4.Credit%20Risk%20Modeling_LGD%20%26%20EAD%20Model.ipynb)
+## [4. LGD & EAD Model Building](https://github.com/barkamoljon/PortfolioProjects/blob/main/Credit_Risk_Modeling/4.Credit%20Risk%20Modeling_LGD%20%26%20EAD%20Model.ipynb)
 In this part, we choose appropriate statistical models (linear/logistic regression) to train the LGD and EAD models, and we trained them using the dataset including only defaulted borrowers. The data preprocessing and model building approaches are quite similar to what we have done in PD Model.
 
 ### 4.1 Data Preparation
@@ -899,3 +899,11 @@ Out[109]:
 0.07526562017218118
 ```
 🔶 The ratio of expected loss over total funded amount is 7.5%, which is an acceptable level and means our credit risk is under control!
+
+## Conclusion: 
+In this project, we analyzed the data from 2004 to 2007 without using the data.
+In this, we included 4 points:
+1. Data preparation: we cleaned the data and created columns from useful, close to each other data.
+2. We made a PD model from useful data.
+3. Monitoring: At this stage we compared the Actual and Probable results, at this stage we received the data of 2015 (load_data_2015)
+4.LGD, EAD, and EL: In the last step, we made LGD, EAD models and put all the models into one DataFrame and found EL through them.
