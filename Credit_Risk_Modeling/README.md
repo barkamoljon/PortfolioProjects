@@ -1,4 +1,4 @@
-# Credit Risk Modeling for Loan Defaults
+# Credit Risk Modeling
 
 ## Project Overview
 This project aims to measure the credit risk of LendingClub, (an American peer-to-peer lending company), by calculating the expected loss of their outstanding loans. Credit risk is the likelihood that a borrower would not repay their loan to the lender. By continually evaluating the risk and adjusting their credit policies, the lender could minimize its credit losses while it reaches the fullest potential to maximize revenues on loan borrowing. It is also crucial for the lender to abide by regulations that require them to conduct their business with sufficient capital adequacy, which, if in low, will risk the stability of the economic system.
@@ -7,15 +7,15 @@ The key metric of credit risk is Expected Loss (EL), calculated by multiplying t
 
  
 ## Code and Resources Used
-* __Python Version__: 3.8.5
+* __Python Version__: 3.10.0
 * __Packages__: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle
 * __Algorithms__: regression (multiple linear), classification (logistic regression)
-* __Dataset Source__: https://www.kaggle.com/shawnysun/loan-data-for-credit-risk-modeling
+* __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/credit-risk-default
 
 ## Datasets Information<br>
-[_**'loan_data_2007_2014.csv'**_](https://www.kaggle.com/shawnysun/loan-data-for-credit-risk-modeling?select=loan_data_2007_2014.csv) contains the past data of all loans that we use to train and test our model<br>
-[_**'loan_data_2015.csv'**_](https://www.kaggle.com/shawnysun/loan-data-for-credit-risk-modeling?select=loan_data_2015.csv) contains the current data we will implement the model to measure the risk<br>
-[_**'loan_data_defaults.csv'**_](https://www.kaggle.com/shawnysun/loan-data-for-credit-risk-modeling?select=loan_data_defaults.csv) contains only the past data of all defaulted loans
+[_**'loan_data_2007_2014.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/credit-risk-default?select=loan_data_2007_2014.csv) contains the past data of all loans that we use to train and test our model<br>
+[_**'loan_data_2015.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/credit-risk-default?select=loan_data_2015.csv) contains the current data we will implement the model to measure the risk<br>
+[_**'loan_data_2007_2014_preprocessed.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/credit-risk-default?select=loan_data_2007_2014_preprocessed.csv) preprocessed load_data_2007_2014.csv file 
 
 
 
@@ -476,7 +476,7 @@ plt.ylabel('Cumulative % Bad')
 plt.title('Gini')
 ```
 
-![image](https://user-images.githubusercontent.com/77659538/110452593-4acf1300-8100-11eb-955c-e8885aaa5893.png)
+![index](https://user-images.githubusercontent.com/97020905/212651016-9c995715-18e7-4b16-b2cb-279ab8c6023c.png)
 
 ```
 In [61]:
