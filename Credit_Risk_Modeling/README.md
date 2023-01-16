@@ -476,7 +476,8 @@ plt.ylabel('Cumulative % Bad')
 plt.title('Gini')
 ```
 
-![index](https://user-images.githubusercontent.com/97020905/212651016-9c995715-18e7-4b16-b2cb-279ab8c6023c.png)
+![image](https://user-images.githubusercontent.com/77659538/110452593-4acf1300-8100-11eb-955c-e8885aaa5893.png)
+
 
 ```
 In [61]:
@@ -504,7 +505,7 @@ plt.ylabel('Cumulative %')
 plt.title('Kolmogorov-Smirnov')
 ```
 
-![image](https://user-images.githubusercontent.com/77659538/110452594-4acf1300-8100-11eb-8faa-c5f98c53c0cc.png)
+![index](https://user-images.githubusercontent.com/97020905/212651016-9c995715-18e7-4b16-b2cb-279ab8c6023c.png)
 
 
 ```
