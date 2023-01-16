@@ -902,8 +902,8 @@ Out[109]:
 
 ## Conclusion: 
 In this project, we analyzed the data from 2004 to 2007 without using the data.
-In this, we included 4 points:
+We included 4 points:
 1. Data preparation: we cleaned the data and created columns from useful, close to each other data.
 2. We made a PD model from useful data.
 3. Monitoring: At this stage we compared the Actual and Probable results, at this stage we received the data of 2015 (load_data_2015)
-4.LGD, EAD, and EL: In the last step, we made LGD, EAD models and put all the models into one DataFrame and found EL through them.
+4. LGD, EAD, and EL: In the last step, we made LGD, EAD models and put all the models into one DataFrame and found EL through them.
