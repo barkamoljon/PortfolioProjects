@@ -9,7 +9,7 @@ To better position our products, we will firstly perform segmentation on our cus
 
 
 ## Code and Resources Used
-* __Python Version__: 3.9
+* __Python Version__: 3.9.5
 * __Packages__: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle, tensorflow 
 * __Algorithms__: clustering(K-means, PCA), regression(logistic, linear), neural network
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data/settings?select=New_Audiobooks_Data.csv
@@ -318,7 +318,8 @@ X['Mean_Promotion'] = (df_pa['Promotion_1'] +
                        df_pa['Promotion_5'] ) / 5
 ```
 We visualize the results with without promo side-by-side
-(![elasticity](https://user-images.githubusercontent.com/97020905/218229139-19d93fcd-6249-46d8-b9a6-b9505c70de8d.png))
+
+![elasticity](https://user-images.githubusercontent.com/97020905/218238562-4088da94-0f7a-4014-9b5a-88484a18fae8.png)
 
 🔶 Insights: when we apply the promotion, we can at the same time increase the price a little bit without the fear that they will be less likely to buy our products
 - The purchase probability elasticity of the customer is less elastic when there is promotion
