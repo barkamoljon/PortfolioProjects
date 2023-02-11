@@ -18,7 +18,7 @@ This project is a part of the PortfolioProjects repository by barkamoljon and fo
 The project consists of the following files:
 1. `Absenteeism_at_work.csv`: This file contains the dataset used for the project.
 2. `Absenteeism_Project.ipynb`: This is the main Jupyter Notebook file that contains the code for the project.
-3. `requirements.txt`: This file contains the list of required libraries and their versions.
+
 
 ## Project Details
 The project is divided into the following sections:
