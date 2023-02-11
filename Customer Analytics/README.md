@@ -16,11 +16,8 @@ To better position our products, we will firstly perform segmentation on our cus
 
 ## Datasets Information
 [_**'segmentation data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=purchase+data.csv) contains data of our customers that we use to build model for segmentation.<br>
-
 [_**'purchase data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=segmentation+data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
-
 [_**'Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=Audiobooks_data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
-
 [_**'New Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=New_Audiobooks_Data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
 
 
@@ -500,7 +497,7 @@ plt.show()
 ```
 Above we found the elasticity for all Brands, but we know that the best result among the brands was Brand 5, so in order to increase the elasticity, we repeated the previous work only for Brand 5 and got a relatively better result.
 
-![improve results](https://user-images.githubusercontent.com/97020905/218231150-9b481434-02a8-4c19-b078-72521eccdd32.png)
+![image](https://user-images.githubusercontent.com/97020905/218231150-9b481434-02a8-4c19-b078-72521eccdd32.png)
 
 In the next part of our presentation, we will determine whether the customer will return or not using Deep Learning algorithms
 
@@ -855,7 +852,7 @@ array([0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1,
        1, 0, 0, 1, 0, 0, 1, 1], dtype=int64)
 
 We got results from new information!
-1- Repeat customers
+1- Repeat customers;
 0 - Customers who do not buy again
 
 ## These sources have been used and enriched:
