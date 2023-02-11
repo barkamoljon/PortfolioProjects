@@ -1,4 +1,4 @@
-# Customer Analytics for Retail/FMCG Company
+# Customer Analytics 
 
 ## Project Overview
 This project aims to support a retail or FMCG (fast-moving consumer goods) company to formulate marketing and pricing strategies that could maximize revenues on each brand of candy bars. To reach the fullest potential of bringing up revenues, a company should find the 'sweet spot' for price to maximize three customer behaviours: purchase probability, brand choice probability, and purchase quantity. 
