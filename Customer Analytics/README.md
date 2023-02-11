@@ -318,6 +318,7 @@ X['Mean_Promotion'] = (df_pa['Promotion_1'] +
                        df_pa['Promotion_5'] ) / 5
 ```
 We visualize the results with without promo side-by-side
+
 ![image](https://user-images.githubusercontent.com/77659538/110770861-ceba0400-8294-11eb-9f5b-282f288169db.png)
 
 🔶 Insights: when we apply the promotion, we can at the same time increase the price a little bit without the fear that they will be less likely to buy our products
