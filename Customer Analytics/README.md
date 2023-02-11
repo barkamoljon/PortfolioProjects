@@ -16,8 +16,11 @@ To better position our products, we will firstly perform segmentation on our cus
 
 ## Datasets Information
 [_**'segmentation data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=purchase+data.csv) contains data of our customers that we use to build model for segmentation.<br>
+
 [_**'purchase data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=segmentation+data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
+
 [_**'Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=Audiobooks_data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
+
 [_**'New Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=New_Audiobooks_Data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
 
 
@@ -319,7 +322,7 @@ X['Mean_Promotion'] = (df_pa['Promotion_1'] +
 ```
 We visualize the results with without promo side-by-side
 
-![elasticity](https://user-images.githubusercontent.com/97020905/218238562-4088da94-0f7a-4014-9b5a-88484a18fae8.png)
+![image](https://user-images.githubusercontent.com/77659538/110770861-ceba0400-8294-11eb-9f5b-282f288169db.png)
 
 🔶 Insights: when we apply the promotion, we can at the same time increase the price a little bit without the fear that they will be less likely to buy our products
 - The purchase probability elasticity of the customer is less elastic when there is promotion
@@ -857,4 +860,5 @@ We got results from new information!
 
 ## These sources have been used and enriched:
 [Customer Anaytics in Python](https://www.udemy.com/course/customer-analytics-in-python)
+
 [Shawn Sun](https://github.com/shawn-y-sun)
