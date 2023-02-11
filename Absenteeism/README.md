@@ -4,7 +4,7 @@
 This project is a part of the PortfolioProjects repository by barkamoljon and focuses on predicting absenteeism at work using machine learning algorithms. The project uses the "Absenteeism at work" dataset and the goal is to build a model that can accurately predict the probability of an employee being absent from work.
 
 ## Requirements
-- Python 3.x
+- Python 3.9.6
 - Jupyter Notebook
 - Pandas, Numpy, and Scikit-Learn libraries
 
