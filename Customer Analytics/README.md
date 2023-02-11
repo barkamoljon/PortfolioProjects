@@ -497,7 +497,7 @@ plt.show()
 ```
 Above we found the elasticity for all Brands, but we know that the best result among the brands was Brand 5, so in order to increase the elasticity, we repeated the previous work only for Brand 5 and got a relatively better result.
 
-![image](https://user-images.githubusercontent.com/97020905/218231150-9b481434-02a8-4c19-b078-72521eccdd32.png)
+![Image](https://user-images.githubusercontent.com/97020905/218231150-9b481434-02a8-4c19-b078-72521eccdd32.png)
 
 In the next part of our presentation, we will determine whether the customer will return or not using Deep Learning algorithms
 
