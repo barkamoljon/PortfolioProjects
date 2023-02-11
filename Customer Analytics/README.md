@@ -16,8 +16,8 @@ To better position our products, we will firstly perform segmentation on our cus
 
 ## Datasets Information
 [_**'segmentation data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=purchase+data.csv) contains data of our customers that we use to build model for segmentation.<br>
-[_**'purchase data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=segmentation+data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
-[_**'Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=Audiobooks_data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
+[_**'purchase data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=segmentation+data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.<br>
+[_**'Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=Audiobooks_data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.<br>
 [_**'New Audiobooks data.csv'**_](https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data?select=New_Audiobooks_Data.csv) contains data of each purchase transaction of customers, including price, quantity, brand, incidence.
 
 
