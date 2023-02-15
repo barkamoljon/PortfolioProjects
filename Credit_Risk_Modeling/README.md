@@ -909,6 +909,6 @@ We included 4 points:
 4. LGD, EAD, and EL: In the last step, we made LGD, EAD models and put all the models into one DataFrame and found EL through them.
 
 ## These sources have been used and enriched:
-[Customer Risk Modeling in Python](https://learn.365datascience.com/courses/preview/credit-risk-modeling-in-python/)
+[Credit Risk Modeling in Python](https://learn.365datascience.com/courses/preview/credit-risk-modeling-in-python/)
 
 [Shawn Sun](https://github.com/shawn-y-sun)
