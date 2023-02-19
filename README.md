@@ -1,5 +1,5 @@
 # PortfolioProjects
-Author: Barkamol Urinboev
+Barkamol Urinboev
 
 ## [Project 1: Credit Risk Modeling](https://github.com/barkamoljon/PortfolioProjects/tree/main/Credit_Risk_Modeling)
 
