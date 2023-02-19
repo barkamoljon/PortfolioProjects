@@ -35,7 +35,7 @@ To better position our products, we will firstly perform segmentation on our cus
 This project is a part of the PortfolioProjects repository by barkamoljon and focuses on predicting absenteeism at work using machine learning algorithms. The project uses the "Absenteeism at work" dataset and the goal is to build a model that can accurately predict the probability of an employee being absent from work.
 
 ## Requirements
-* __Python Version__:3.9.6
+* __Python Version__: 3.9.6
 * __Packages__: pandas, numpy, and sklearn
 * __Algorithms__: regression(logistic, linear), BaseEstimator, TransformerMixin, metrics
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/absenteeism
