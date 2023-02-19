@@ -30,7 +30,7 @@ To better position our products, we will firstly perform segmentation on our cus
 * __Algorithms__: clustering(K-means, PCA), regression(logistic, linear), neural network
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/audiobooks-data/settings?select=New_Audiobooks_Data.csv
 
-[Project 3: Absenteeism](https://github.com/barkamoljon/PortfolioProjects/tree/main/Absenteeism)
+## [Project 3: Absenteeism](https://github.com/barkamoljon/PortfolioProjects/tree/main/Absenteeism)
 
 This project is a part of the PortfolioProjects repository by barkamoljon and focuses on predicting absenteeism at work using machine learning algorithms. The project uses the "Absenteeism at work" dataset and the goal is to build a model that can accurately predict the probability of an employee being absent from work.
 
