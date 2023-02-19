@@ -9,7 +9,7 @@ This project aims to measure the credit risk of LendingClub, (an American peer-t
 The key metric of credit risk is Expected Loss (EL), calculated by multiplying the results across three models: PD (Probability of Default), LGD (Loss Given Default), and EAD (Exposure at Default). The project includes all three models to help reach the final goal of credit risk measurement.
 
  
-## Code and Resources Used
+## Requirements
 * __Python Version__: 3.10.0
 * __Packages__: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle
 * __Algorithms__: regression (multiple linear), classification (logistic regression)
@@ -24,7 +24,7 @@ Data from customer purchase history were used for training the regression models
 To better position our products, we will firstly perform segmentation on our customers to support our analysis on customer behaviours, allowing us to customize marketing strategies for customers with different backgrounds.
 
 
-## Code and Resources Used
+## Requirements
 * __Python Version__: 3.9.6
 * __Packages__: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle, tensorflow 
 * __Algorithms__: clustering(K-means, PCA), regression(logistic, linear), neural network
@@ -34,7 +34,7 @@ To better position our products, we will firstly perform segmentation on our cus
 
 This project is a part of the PortfolioProjects repository by barkamoljon and focuses on predicting absenteeism at work using machine learning algorithms. The project uses the "Absenteeism at work" dataset and the goal is to build a model that can accurately predict the probability of an employee being absent from work.
 
-## Code and Requirements
+## Requirements
 * __Python Version__:3.9.6
 * __Packages__: pandas, numpy, and sklearn
 * __Algorithms__: regression(logistic, linear), BaseEstimator, TransformerMixin, metrics
