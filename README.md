@@ -39,3 +39,18 @@ This project is a part of the PortfolioProjects repository by barkamoljon and fo
 * __Packages__: pandas, numpy, and sklearn
 * __Algorithms__: regression(logistic, linear), BaseEstimator, TransformerMixin, metrics
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/absenteeism
+
+## [Project 4: Tableau Portfolio Project SQL Queries](https://github.com/barkamoljon/PortfolioProjects/blob/main/Tableau%20Portfolio%20Project%20SQL%20Queries.sql)
+
+## Overview
+The Tableau Portfolio Project is a collection of SQL queries and Tableau dashboards that explore a dataset of customer orders for a fictitious company. The dataset includes information on customer orders, products, and sales, and the goal of this project is to provide insights into the company's sales and customer behavior.
+
+The SQL queries are used to prepare the data for analysis, and the results are then visualized in Tableau dashboards. The dashboards provide an interactive way to explore the data and to discover insights into the company's sales trends, customer behavior, and product performance.
+
+The project demonstrates skills and knowledge in SQL, data cleaning and preparation, data analysis, and data visualization using Tableau. By exploring the data and creating interactive dashboards, this project provides valuable insights into the company's sales and customer behavior, which could be used to inform business decisions and strategies.
+
+## Requirements
+* __Microsoft SQL Server Version__: 18.12.1
+* __Packages__: tableau, microsofr sql
+* __Algorithms__: sql queries
+* __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/covid19
