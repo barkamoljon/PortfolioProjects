@@ -53,6 +53,6 @@ The project demonstrates skills and knowledge in SQL, data cleaning and preparat
 
 ## Requirements
 * __Microsoft SQL Server Version__: 18.12.1
-* __Packages__: tableau, microsofr sql
+* __Packages__: tableau, microsoft sql
 * __Algorithms__: sql queries
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/covid19
