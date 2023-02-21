@@ -449,7 +449,7 @@ Calculate the price elasticity with new formula
 price_elasticity_quantity_promotion_yes = beta_quantity * price_range / predict_quantity
 ```
 Plot the two elasticities (with and without promotion) side by side<br>
-![promotion1](https://user-images.githubusercontent.com/97020905/218240991-f74c3c6b-a19f-4008-988d-4523752594e1.png)
+![promotion1](https://user-images.githubusercontent.com/97020905/220265166-1553e6bb-19e9-4fd6-9f26-d9bf6e503204.jpg)
 
 🔶 Insights:
 - We observe that the two elasticities are very close together for almost the entire price range.
