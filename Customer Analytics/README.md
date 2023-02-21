@@ -170,7 +170,7 @@ Display the average number of purchases by segments, help us understand how ofte
 - The most homogenous segment appears to be that of the fewer opportunities. This is signified by the segment having the lowest standard deviation or shortest vertical line. The standard segment seems consistent as well with about 25 average purchases and a standard deviation of 30.
 
 
-![Segment](https://user-images.githubusercontent.com/97020905/220262721-0ab98d27-3dfd-40ac-812b-c0d222383a82.jpeg)
+![Segment](https://user-images.githubusercontent.com/97020905/220263727-b477a3cb-cc64-4957-b074-2b9ef91410d7.jpg)
 
 🔶 Insights:
 - For Career-focused and Well-Off standard deviation is the highest it might be that a part of the segment avarage buys products very frequently.And another part less so. Although consumers in this segment have a somewhat similar income, the way that they might want to spend their money might differ.
