@@ -903,10 +903,11 @@ Out[109]:
 ## Conclusion: 
 In this project, we analyzed the data from 2007 to 2014 with using the data. We included 4 points:
 
-Data preparation: we cleaned the data and created columns from useful, close to each other data.
-We made a PD model from useful data.
-Monitoring: At this stage, we compared the Actual and Probable results, at this stage we received the data for 2015 (load_data_2015)
-LGD, EAD, and EL: In the last step, we made LGD, and EAD models and put all the models into one DataFrame and found EL through them.
+Through the project, we achieved a 7.5% ratio of expected losses to the total financed amount, it divided into 4 parts:
+1. Data preparation: we cleaned the data and created columns from useful, close to each other data.
+2. We made a PD model from useful data.
+3. Monitoring: At this stage, we compared the Actual and Probable results, at this stage we received the data for 2015 (load_data_2015)
+4. LGD, EAD, and EL: In the last step, we made LGD, and EAD models and put all the models into one DataFrame and found EL through them.
 
 ## These sources have been used and enriched:
 [Credit Risk Modeling in Python](https://learn.365datascience.com/courses/preview/credit-risk-modeling-in-python/)
