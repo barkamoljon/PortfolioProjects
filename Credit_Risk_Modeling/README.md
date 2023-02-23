@@ -901,12 +901,12 @@ Out[109]:
 🔶 The ratio of expected loss over total funded amount is 7.5%, which is an acceptable level and means our credit risk is under control!
 
 ## Conclusion: 
-In this project, we analyzed the data from 2007 to 2014 without using the data.
-We included 4 points:
-1. Data preparation: we cleaned the data and created columns from useful, close to each other data.
-2. We made a PD model from useful data.
-3. Monitoring: At this stage we compared the Actual and Probable results, at this stage we received the data of 2015 (load_data_2015)
-4. LGD, EAD, and EL: In the last step, we made LGD, EAD models and put all the models into one DataFrame and found EL through them.
+In this project, we analyzed the data from 2007 to 2014 with using the data. We included 4 points:
+
+Data preparation: we cleaned the data and created columns from useful, close to each other data.
+We made a PD model from useful data.
+Monitoring: At this stage, we compared the Actual and Probable results, at this stage we received the data for 2015 (load_data_2015)
+LGD, EAD, and EL: In the last step, we made LGD, and EAD models and put all the models into one DataFrame and found EL through them.
 
 ## These sources have been used and enriched:
 [Credit Risk Modeling in Python](https://learn.365datascience.com/courses/preview/credit-risk-modeling-in-python/)
