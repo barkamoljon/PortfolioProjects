@@ -65,10 +65,10 @@ The project is titled "COVID Portfolio Project - Data Exploration" and the code 
 
 The project begins with importing COVID-19 data into a SQL database, followed by data cleaning and pre-processing. Then, the author uses various SQL queries to answer questions related to COVID-19, such as:
 
-- What is the total number of confirmed cases and deaths in each country?
-- How has the number of cases and deaths changed over time?
-- What are the top 10 countries with the highest number of cases and deaths?
-- How has the spread of COVID-19 varied by continent?
+- -  What is the total number of confirmed cases and deaths in each country?
+- -  How has the number of cases and deaths changed over time?
+- -  What are the top 10 countries with the highest number of cases and deaths?
+- -  How has the spread of COVID-19 varied by continent?
 
 The author also uses SQL to create visualizations such as bar charts, line graphs, and heatmaps to help better understand the data.
 
