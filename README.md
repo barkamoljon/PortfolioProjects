@@ -93,3 +93,8 @@ The author employs a wide range of SQL queries to clean and manipulate the data,
 The project also includes examples of how to use SQL queries to merge and join data from multiple tables, as well as how to filter and select specific rows based on certain conditions.
 
 Overall, the project provides a good example of how to use SQL queries to clean and manipulate data effectively. The techniques used in the project may be useful for anyone interested in data cleaning, data manipulation, or SQL programming.
+
+## Requirements
+* __Microsoft SQL Server Version__: 18.12.1
+* __Packages__: microsoft sql, sql queries
+* __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/nashville-dataset
