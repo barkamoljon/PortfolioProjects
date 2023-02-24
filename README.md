@@ -64,10 +64,10 @@ The project is titled "COVID Portfolio Project - Data Exploration" and the code 
 
 The project begins with importing COVID-19 data into a SQL database, followed by data cleaning and pre-processing. Then, the author uses various SQL queries to answer questions related to COVID-19, such as:
 
-#### What is the total number of confirmed cases and deaths in each country?
-#### How has the number of cases and deaths changed over time?
-#### What are the top 10 countries with the highest number of cases and deaths?
-#### How has the spread of COVID-19 varied by continent?
+- What is the total number of confirmed cases and deaths in each country?
+- How has the number of cases and deaths changed over time?
+- What are the top 10 countries with the highest number of cases and deaths?
+- How has the spread of COVID-19 varied by continent?
 
 The author also uses SQL to create visualizations such as bar charts, line graphs, and heatmaps to help better understand the data.
 
@@ -77,3 +77,19 @@ Overall, the project provides a good example of how SQL can be used to analyze a
 * __Microsoft SQL Server Version__: 18.12.1
 * __Packages__: tableau, microsoft sql, sql queries
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/covid19
+
+
+## [Project 6: Data Cleaning Portfolio Project Queries](https://github.com/barkamoljon/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project%20Queries.sql)
+
+## Overview
+The project titled "Data Cleaning Portfolio Project Queries" is a SQL-based project that focuses on data cleaning and data manipulation. The project begins by importing data into a SQL database, followed by data cleaning and pre-processing using various SQL queries.
+
+The author employs a wide range of SQL queries to clean and manipulate the data, such as:
+
+- Removing duplicate rows from the data.
+- Handling missing values using various techniques such as imputation and deletion.
+- Renaming columns and changing data types to improve data quality.
+- Normalizing and standardizing data to ensure consistency.
+The project also includes examples of how to use SQL queries to merge and join data from multiple tables, as well as how to filter and select specific rows based on certain conditions.
+
+Overall, the project provides a good example of how to use SQL queries to clean and manipulate data effectively. The techniques used in the project may be useful for anyone interested in data cleaning, data manipulation, or SQL programming.
