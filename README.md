@@ -98,3 +98,26 @@ Overall, the project provides a good example of how to use SQL queries to clean 
 * __Microsoft SQL Server Version__: 18.12.1
 * __Packages__: microsoft sql, sql queries
 * __Dataset Source__: https://www.kaggle.com/datasets/barkamolurinboev/nashville-dataset
+
+## [Project 7: House Price Prediction](https://github.com/barkamoljon/PortfolioProjects/blob/main/House_Price_Prediction.ipynb)
+
+## Overview
+The project titled "House Price Prediction" is a Jupyter Notebook-based project that focuses on predicting house prices using various machine learning algorithms. It begins with importing and exploring a dataset of house prices, followed by data cleaning and pre-processing.
+
+The author employs a wide range of machine learning algorithms to predict house prices, such as:
+
+- Linear regression
+- Decision trees
+- Random forests
+- Gradient boosting
+The author uses various techniques to evaluate the performance of the models, such as mean squared error (MSE) and root mean squared error (RMSE). Additionally, the author uses various data visualization techniques to help better understand the data and the model's predictions.
+
+The project also includes examples of how to use feature selection techniques to select the most important features in the dataset, which can help improve the accuracy of the models.
+
+Overall, the project provides a good example of how to use machine learning algorithms to predict house prices and may be useful for anyone interested in machine learning, data analysis, or real estate.
+
+## Requirements
+* __Python Version__: 3.9.6
+* __Packages__: pandas, numpy, matplotlib, seaborn, sklearn, lazypredict, and joblib
+* __Algorithms__: regression(logistic, linear), Decision trees, TransformerMixin, Gradient boosting, metrics(RMSE, MSE)
+* __Dataset Source__: https://github.com/anvarnarz/praktikum_datasets/blob/main/housing_data_08-02-2021.csv
