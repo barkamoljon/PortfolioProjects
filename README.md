@@ -121,3 +121,37 @@ Overall, the project provides a good example of how to use machine learning algo
 * __Packages__: pandas, numpy, matplotlib, seaborn, sklearn, lazypredict, and joblib
 * __Algorithms__: regression(logistic, linear), Decision trees, TransformerMixin, Gradient boosting, metrics(RMSE, MSE)
 * __Dataset Source__: https://github.com/anvarnarz/praktikum_datasets/blob/main/housing_data_08-02-2021.csv
+
+## [Project 8: Credit Risk Modeling](https://github.com/barkamoljon/PortfolioProjects/blob/main/Amazon%20Web%20Scraper%20Project.ipynb)
+
+## Overview
+The project focuses on web scraping Amazon product data using Python. The project begins by importing necessary libraries such as BeautifulSoup, requests, and pandas.
+
+The author then proceeds to scrape Amazon product data such as product names, prices, ratings, and reviews from a specific category using web scraping techniques. The scraped data is then pre-processed and cleaned to ensure that it is in a format suitable for analysis.
+
+The author uses various data visualization techniques to help better understand the data, such as creating bar charts, line graphs, and heatmaps. The project also includes examples of how to use statistical analysis to gain insights from the data, such as calculating mean, median, and mode.
+
+Overall, the project provides a good example of how to use web scraping techniques to extract data from Amazon and may be useful for anyone interested in data analysis, web scraping, or e-commerce. However, it should be noted that web scraping Amazon data may be against Amazon's terms of service, so caution should be exercised when attempting to replicate this project.
+
+## Requirements
+* __Python Version__: 3.9.6
+* __Packages__: pandas, BeautifulSoup, requests, time, datetime, and smtplib
+* __Dataset Source__: https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X/ref=sr_1_1?crid=10QFPWPXWB3D9&keywords=math+for+machine+learning&qid=1677503609&sprefix=MAth+for+machi%2Caps%2C701&sr=8-1
+
+
+## [Project 9: Movie Portfolio Project](https://github.com/barkamoljon/PortfolioProjects/blob/main/Movie%20Portfolio%20Project.ipynb)
+
+##Overview
+The project focuses on analyzing a dataset of movie ratings and reviews using Python. The project begins by importing necessary libraries such as pandas, matplotlib, and seaborn.
+
+The author then proceeds to clean and pre-process the dataset to ensure that it is in a format suitable for analysis. The pre-processing techniques used include handling missing values, removing duplicate data, and transforming data types.
+
+The author uses various data visualization techniques to help better understand the data, such as creating histograms, scatter plots, and heatmaps. The project also includes examples of how to use statistical analysis to gain insights from the data, such as calculating mean, median, and mode.
+
+
+Overall, the project provides a good example of how to use data analysis gain insights from a dataset of movie ratings and reviews. The techniques used in the project may be useful for anyone interested in data analysis,  or the movie industry.
+
+## Requirements
+* __Python Version__: 3.9.6
+* __Packages__: pandas, numpy, matplotlib, and seaborn
+* __Dataset Source__: https://www.kaggle.com/datasets/danielgrijalvas/movies
