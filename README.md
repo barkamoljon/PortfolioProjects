@@ -141,7 +141,7 @@ Overall, the project provides a good example of how to use web scraping techniqu
 
 ## [Project 9: Movie Portfolio Project](https://github.com/barkamoljon/PortfolioProjects/blob/main/Movie%20Portfolio%20Project.ipynb)
 
-##Overview
+## Overview
 The project focuses on analyzing a dataset of movie ratings and reviews using Python. The project begins by importing necessary libraries such as pandas, matplotlib, and seaborn.
 
 The author then proceeds to clean and pre-process the dataset to ensure that it is in a format suitable for analysis. The pre-processing techniques used include handling missing values, removing duplicate data, and transforming data types.
