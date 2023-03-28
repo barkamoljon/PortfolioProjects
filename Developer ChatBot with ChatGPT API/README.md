@@ -1,4 +1,4 @@
-Title: Developer ChatBot with ChatGPT API Documentation
+## Developer ChatBot with ChatGPT API Documentation
 
 Introduction:
 The Developer ChatBot with ChatGPT API is a python-based project that utilizes the OpenAI GPT-3 API to create a ChatBot capable of having conversations with developers. The ChatBot is designed to answer coding and software development related questions posed by developers in natural language.
