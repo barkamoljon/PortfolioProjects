@@ -1,5 +1,5 @@
 ## Introduction:
-This notebook demonstrates time series forecasting using the FBProphet library in Python. The dataset used in this project is the daily number of passengers for an airline company, which spans from 1949 to 1960. The goal of the project is to forecast the number of passengers for the next few years based on the historical data.
+This notebook demonstrates time series forecasting using the FBProphet library in Python. The dataset used in this project is the daily number of passengers for an airline company, which spans from 2018 to 2020. The goal of the project is to forecast the number of passengers for the next few years based on the historical data.
 
 ## Data:
 The dataset used in this project can be found in the "airline_passengers.csv" file. It contains two columns: "Month" and "Passengers". The "Month" column represents the time period and is in the format "yyyy-mm". The "Passengers" column represents the number of passengers for that particular month.
